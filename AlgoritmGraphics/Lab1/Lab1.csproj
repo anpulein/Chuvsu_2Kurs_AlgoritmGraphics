@@ -55,7 +55,6 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Enum\Enum.cs" />
         <Compile Include="Other\Fields.cs" />
         <Compile Include="Form1.cs">
             <SubType>Form</SubType>
@@ -92,6 +91,12 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include=".gitignore" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Lib\Lib.csproj">
+        <Project>{79323837-c312-4d53-8f39-4aadeba9aa43}</Project>
+        <Name>Lib</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
