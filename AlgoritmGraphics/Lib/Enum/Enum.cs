@@ -8,6 +8,7 @@ namespace Lib.Enum
         BLACK, 
         WHITE,
         RED,
+        GREEN,
         BLUE,
         PURPLE,
         YELLOW,
@@ -22,6 +23,7 @@ namespace Lib.Enum
                 case COLORS.BLACK: return new vec3( 0.0f, 0.0f, 0.0f);
                 case COLORS.WHITE: return new vec3( 1.0f, 1.0f, 1.0f);
                 case COLORS.RED: return new vec3(1.0f, 0.0f, 0.0f);
+                case COLORS.GREEN: return new vec3(0.0f, 1.0f, 0.0f);
                 case COLORS.BLUE: return new vec3(0.0f, 0.0f, 1.0f);
                 case COLORS.PURPLE: return new vec3(1.0f, 0.0f, 1.0f);
                 case COLORS.YELLOW: return new vec3(1.0f, 1.0f, 0.0f);
@@ -37,6 +39,7 @@ namespace Lib.Enum
                 case COLORS.BLACK: return "Black";
                 case COLORS.WHITE: return "White";
                 case COLORS.RED: return "Red";
+                case COLORS.GREEN: return "Green";
                 case COLORS.BLUE: return "Blue";
                 case COLORS.PURPLE: return "Purple";
                 case COLORS.YELLOW: return "Yellow";

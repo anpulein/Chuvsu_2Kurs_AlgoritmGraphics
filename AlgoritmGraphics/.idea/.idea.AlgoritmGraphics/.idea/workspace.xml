@@ -8,15 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf0b7e7c-1b89-404a-b714-6f84d3ce1f68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab2/Other/Fields.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/Enum/Enum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/Lib.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/bin/Debug/Lib.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lib/bin/Debug/Lib.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/Other/GraphicObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AlgoritmGraphics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlgoritmGraphics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/Enum/Enum.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/Lab1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/Lab1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/Other/Fields.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/Other/Fields.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Enum/Enum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Enum/Enum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/bin/Debug/Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/bin/Debug/Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/bin/Debug/Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/bin/Debug/Lib.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/572c8bce38844c2bb1ed31e20c40d86b11e000/6d/394abe14/Gl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c6e64303bd5b4b5fa5ae8c9acbbc5912a000/dc/581681ef/Glut.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe67d58757af409ca22d3100843c4e14255e00/33/ac1e307f/mat4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe67d58757af409ca22d3100843c4e14255e00/c3/e16bcc1b/vec3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lib/Enum/Enum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lib/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,11 +45,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.Lab2">
+  <component name="RunManager" selected=".NET Project.Lab3">
     <configuration name="Lab1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -139,7 +136,8 @@
       <workItem from="1662542499402" duration="1841000" />
       <workItem from="1662662939401" duration="20077000" />
       <workItem from="1663249257075" duration="7524000" />
-      <workItem from="1663257820620" duration="928000" />
+      <workItem from="1663257820620" duration="8932000" />
+      <workItem from="1663345128358" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="Готова 1 лаба">
       <created>1663250472149</created>
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663250644462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Lab2">
+      <created>1663258880615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663258880615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +183,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Готова 1 лаба" />
     <MESSAGE value="add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+    <MESSAGE value="Add Lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lab2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -234,6 +240,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lab3/Form1.cs</url>
+          <line>86</line>
+          <properties documentPath="D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab3\Form1.cs" initialLine="79" containingFunctionPresentation="method 'display'">
+            <startOffsets>
+              <option value="3059" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3095" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lab3/Form1.cs</url>
+          <line>37</line>
+          <properties documentPath="D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab3\Form1.cs" initialLine="36" containingFunctionPresentation="constructor 'Form1'">
+            <startOffsets>
+              <option value="909" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1098" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lab3/Other/GraphicObject.cs</url>
+          <line>99</line>
+          <properties documentPath="D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab3\Other\GraphicObject.cs" initialLine="95" containingFunctionPresentation="method 'draw'">
+            <startOffsets>
+              <option value="2653" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2708" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
