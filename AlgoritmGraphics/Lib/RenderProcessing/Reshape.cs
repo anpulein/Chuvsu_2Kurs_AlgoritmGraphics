@@ -12,7 +12,7 @@ using Tao.Platform.Windows;
 // Для работы со специальными типами данных в трехмерной графики
 using GlmSharp;
 
-namespace Lib.Lab4
+namespace Lib.RenderProcessing
 {
     public class Reshape
     {

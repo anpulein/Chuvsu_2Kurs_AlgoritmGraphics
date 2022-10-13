@@ -4,13 +4,42 @@
     <projectFile>Lab1/Lab1.csproj</projectFile>
     <projectFile>Lab2/Lab2.csproj</projectFile>
     <projectFile>Lab3/Lab3.csproj</projectFile>
+    <projectFile>Lab4/Lab4.csproj</projectFile>
+    <projectFile>Lab5/Lab5.csproj</projectFile>
+    <projectFile>Lab6/Lab6.csproj</projectFile>
+    <projectFile>Lab_5/Lab_5.csproj</projectFile>
     <projectFile>Lib/Lib.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf0b7e7c-1b89-404a-b714-6f84d3ce1f68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab3/Other/GraphicObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab5/Lab5.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab5/bin/Debug/Lab5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab5/bin/Debug/Lab5.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab5/bin/Debug/Lab5.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Data.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab4/Camera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab4/GraphicObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab5/Light.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab5/ParseMaterial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab5/PhongMaterial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/GameObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/GraphicObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/Mesh.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/Vertex.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/materials/material_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/materials/material_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/materials/material_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/materials/material_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/meshes/Box.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/meshes/ChamferBox.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/meshes/SimplePlane.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/Lab6/meshes/Sphere.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/RenderProcessing/Display.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/RenderProcessing/Reshape.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lib/RenderProcessing/Simulation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AlgoritmGraphics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlgoritmGraphics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lib/Enum/Enum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Enum/Enum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lib/Lib.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/Lib.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lib/bin/Debug/Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/bin/Debug/Lib.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lib/bin/Debug/Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lib/bin/Debug/Lib.pdb" afterDir="false" />
     </list>
@@ -25,7 +54,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/572c8bce38844c2bb1ed31e20c40d86b11e000/6d/394abe14/Gl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c6e64303bd5b4b5fa5ae8c9acbbc5912a000/dc/581681ef/Glut.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/edef46c9b2db4b878c98495bfdc516fa568ba8/d0/19c4d4ae/__Error.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe67d58757af409ca22d3100843c4e14255e00/33/ac1e307f/mat4.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe67d58757af409ca22d3100843c4e14255e00/9f/c87a881a/glm.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fe67d58757af409ca22d3100843c4e14255e00/c3/e16bcc1b/vec3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lib/Enum/Enum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Lib/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,11 +76,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys_rider&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderDpaPageId&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.Lab3">
+  <component name="RunManager" selected=".NET Project.Lab5">
     <configuration name="Lab1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -104,6 +135,78 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Lab4" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab4/Lab4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Lab5" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab5/Lab5.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Lab6" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab6/Lab6.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Lab_5" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab5/Lab5.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Lib" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -138,6 +241,23 @@
       <workItem from="1663249257075" duration="7524000" />
       <workItem from="1663257820620" duration="8932000" />
       <workItem from="1663345128358" duration="3912000" />
+      <workItem from="1663390988444" duration="2295000" />
+      <workItem from="1663397269941" duration="249000" />
+      <workItem from="1663397686012" duration="17628000" />
+      <workItem from="1663915479247" duration="26000" />
+      <workItem from="1664304890091" duration="532000" />
+      <workItem from="1664425269771" duration="1265000" />
+      <workItem from="1664467361431" duration="2358000" />
+      <workItem from="1664556263111" duration="5040000" />
+      <workItem from="1664595447382" duration="6691000" />
+      <workItem from="1664606078727" duration="17697000" />
+      <workItem from="1664689077271" duration="3355000" />
+      <workItem from="1664700247764" duration="1634000" />
+      <workItem from="1665031432515" duration="1284000" />
+      <workItem from="1665079589302" duration="4210000" />
+      <workItem from="1665127359185" duration="3373000" />
+      <workItem from="1665204344453" duration="5664000" />
+      <workItem from="1665402431342" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="Готова 1 лаба">
       <created>1663250472149</created>
@@ -160,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663258880615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Lab3">
+      <created>1663391015924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663391015924</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +311,8 @@
     <MESSAGE value="Готова 1 лаба" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="Add Lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lab2" />
+    <MESSAGE value="Add Lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lab3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,40 +344,14 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Lab2/Form1.cs</url>
-          <line>85</line>
-          <properties documentPath="D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab2\Form1.cs" initialLine="84" containingFunctionPresentation="method 'simulation'">
-            <startOffsets>
-              <option value="2554" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2576" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Lab2/Other/Fields.cs</url>
-          <line>20</line>
-          <properties documentPath="D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab2\Other\Fields.cs" initialLine="18" containingFunctionPresentation="method 'getRGB'">
-            <startOffsets>
-              <option value="517" />
-            </startOffsets>
-            <endOffsets>
-              <option value="551" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Lab3/Form1.cs</url>
-          <line>86</line>
+          <line>88</line>
           <properties documentPath="D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab3\Form1.cs" initialLine="79" containingFunctionPresentation="method 'display'">
             <startOffsets>
-              <option value="3059" />
+              <option value="3085" />
             </startOffsets>
             <endOffsets>
-              <option value="3095" />
+              <option value="3121" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
@@ -280,7 +382,38 @@
           </properties>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lab2/Form1.cs</url>
+          <line>44</line>
+          <properties documentPath="D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab2\Form1.cs" initialLine="48" containingFunctionPresentation="method 'reshape'">
+            <startOffsets>
+              <option value="1152" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1178" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Lib/Lab5/Light.cs</url>
+          <line>53</line>
+          <properties documentPath="D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lib\Lab5\Light.cs" initialLine="40" containingFunctionPresentation="method 'apply'">
+            <startOffsets>
+              <option value="1766" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1835" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#Lib.Lab5.PhongMaterial.load" memberName="filename" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

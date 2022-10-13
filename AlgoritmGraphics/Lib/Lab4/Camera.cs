@@ -1,18 +1,33 @@
 ﻿
 using GlmSharp;
+using Tao.OpenGl;
 using glm = GlmSharp.glm;
 
-namespace Lab4.Other
+namespace Lib.Lab4
 {
     public class Camera
     {
 
         #region Поля
+        
+        private const float MIN_ANGLE_VALUE = 5;
+        private const float MAX_ANGLE_VALUE = 85;
 
         // Радиус и углы поворота
         private float radius;
         private float angleX;
         private float angleY;
+        
+        // Позиция  
+        private float eyeX;
+        private float eyeY;
+        private float eyeZ;
+        
+        // Центральный массива (centerX, centerY, centerZ)
+        private vec3 target = new vec3(0, 0, 0);
+        
+        // Верхний массив (upX, upY, upZ)
+        private vec3 ups = new vec3(0, 1, 0);
         
         // Позиция камеры
         private vec3 position;
@@ -24,11 +39,18 @@ namespace Lab4.Other
 
         public Camera(vec3 position)
         {
-            this.position = position;
+            setPosition(position);
         }
         
         public Camera(float x, float y, float z)
         {
+            // Позиция
+            eyeX = x;
+            eyeY = y;
+            eyeZ = z;
+            
+            position = new vec3(x, y, z);
+
         }
 
         public void setPosition(vec3 position)
@@ -54,6 +76,12 @@ namespace Lab4.Other
             this.position = position;
         }
 
+        public vec3 getPosition() => this.position;
+
+        public float getAngleX() => this.angleX;
+        public float getAngleY() => this.angleY;
+        public float getRadius() => this.radius;
+
         #region Функции для перемещения камеры
         /// <summary>
         /// Перемещение влево/вправо
@@ -61,16 +89,18 @@ namespace Lab4.Other
         /// <param name="degree"></param>
         public void rotateLeftRight(float degree)
         {
-            
+            angleX += degree;
+            recalculatePosition();
         }
-        
+
         /// <summary>
-        /// Перемещение вверж/вниз
+        /// Перемещение вверх/вниз
         /// </summary>
         /// <param name="degree"></param>
         public void rotateUpDown(float degree)
         {
-            
+            angleY = norm_value(angleY + degree);
+            recalculatePosition();
         }
         
         /// <summary>
@@ -79,7 +109,8 @@ namespace Lab4.Other
         /// <param name="degree"></param>
         public void ZoomInOut(float degree)
         {
-            
+            radius = norm_value(radius + degree);
+            recalculatePosition();
         }
         #endregion
 
@@ -88,7 +119,7 @@ namespace Lab4.Other
         /// </summary>
         public void apply()
         {
-            
+            Glu.gluLookAt(position.x, position.y, position.z, target.x, target.y, target.z, ups.x, ups.y, ups.z);
         }
 
         /// <summary>
@@ -96,7 +127,17 @@ namespace Lab4.Other
         /// </summary>
         private void recalculatePosition()
         {
-            
+            eyeX = radius * glm.Cos(glm.Radians(angleX)) * glm.Sin(glm.Radians(angleY));
+            eyeZ = radius * glm.Sin(glm.Radians(angleX)) * glm.Sin(glm.Radians(angleY));
+            eyeY = radius * glm.Cos(glm.Radians(angleY));
+            position = new vec3(eyeX, eyeY, eyeZ);
+        }
+
+        private float norm_value(float value)
+        {
+            if (value < MIN_ANGLE_VALUE) return MIN_ANGLE_VALUE;
+            if (value > MAX_ANGLE_VALUE) return MAX_ANGLE_VALUE;
+            return value;
         }
 
     }

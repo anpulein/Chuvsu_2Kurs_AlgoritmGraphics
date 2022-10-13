@@ -12,14 +12,10 @@ using Tao.Platform.Windows;
 // Для работы со специальными типами данных в трехмерной графики
 using GlmSharp;
 
-namespace Lib.Lab4
+namespace Lib.RenderProcessing
 {
     public class Simulation
     {
-
-        [DllImport("User32.dll")]
-        private static extern short GetAsyncKeyState( System.Windows.Forms.Keys vKey);
-
         /// <summary>
         /// Функция симуляции - вызывается максимально часто
         /// Черз заранее неизвестные промежутки времени
@@ -30,8 +26,6 @@ namespace Lib.Lab4
 
             CalculateFrameRate();
             
-            // Передвижение камеры
-            // bool cameraLeft = GetAsyncKeyState(Keys.Left);
             
             // Устанавоиваем признак того, что окно нуждается в перерисовке
             Glut.glutPostRedisplay();
@@ -53,14 +47,6 @@ namespace Lib.Lab4
 
             Glut.glutSetWindowTitle($"FPS: {Data.FPS.ToString()}");
         }
-
-        // public static void getSimulationTime()
-        // {
-        //     Data.endSimulationTime = DateTime.Now.Ticks;
-        //     var time = (int)(Data.endSimulationTime - Data.startSimulationTime);
-        //     Data.startSimulationTime = Data.endSimulationTime;
-        //
-        //     Glut.glutSetWindowTitle($"FPS: {(time.ToString())}");
-        // }
+        
     }
 }
