@@ -24,7 +24,7 @@ namespace Lib.Lab4
         private float eyeZ;
         
         // Центральный массива (centerX, centerY, centerZ)
-        private vec3 target = new vec3(0, 0, 0);
+        private vec3 target = new vec3(10, 0, 10);
         
         // Верхний массив (upX, upY, upZ)
         private vec3 ups = new vec3(0, 1, 0);
@@ -127,9 +127,9 @@ namespace Lib.Lab4
         /// </summary>
         private void recalculatePosition()
         {
-            eyeX = radius * glm.Cos(glm.Radians(angleX)) * glm.Sin(glm.Radians(angleY));
-            eyeZ = radius * glm.Sin(glm.Radians(angleX)) * glm.Sin(glm.Radians(angleY));
-            eyeY = radius * glm.Cos(glm.Radians(angleY));
+            eyeX = radius * glm.Cos(glm.Radians(angleX)) * glm.Sin(glm.Radians(angleY)) + target.x;
+            eyeZ = radius * glm.Sin(glm.Radians(angleX)) * glm.Sin(glm.Radians(angleY)) + target.y;
+            eyeY = radius * glm.Cos(glm.Radians(angleY)) + target.z;
             position = new vec3(eyeX, eyeY, eyeZ);
         }
 

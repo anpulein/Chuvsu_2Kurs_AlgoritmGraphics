@@ -19,22 +19,23 @@ namespace Lib.Lab4
 
         #region Поля
         // Позиция объекта в глобальной системе координат
-        private vec3 position;
+        protected vec3 position;
         // Угол поворота в горизонтальной плоскости
-        private float angle;
+        protected float angle;
         // Цвет модели
-        private vec3 color;     
+        protected vec3 color;     
         // Наименование цвета модели
-        private string nameColor;
+        protected string nameColor;
         // Матрица модели (расположение объекта) - чтоб не вычеслять каждый раз
-        private mat4 modelMatrix;
+        protected mat4 modelMatrix;
         // Используемый материал
-        private PhongMaterial material;
+        protected PhongMaterial material;
         #endregion
         
         /// <summary>
         /// Конструктор
         /// </summary>
+        
         public GraphicObject(vec3 position, float angle, COLORS color)
         {
             this.position = position;
@@ -43,6 +44,7 @@ namespace Lib.Lab4
             this.nameColor = Colors.GetColorsName(color);
             Print();
         }
+
         public GraphicObject(vec3 position, float angle, COLORS color, PhongMaterial phongMaterial)
         {
             this.position = position;
@@ -52,6 +54,8 @@ namespace Lib.Lab4
             this.material = phongMaterial;
             Print();
         }
+        
+        public GraphicObject() { }
         
         /// <summary>
         /// Установка позиции объекта
@@ -124,7 +128,7 @@ namespace Lib.Lab4
             Console.WriteLine(this);
         }
 
-        private void Print() => Console.WriteLine("Создание нового объекта GraphicObject { " + this + "\n}");
+        protected void Print() => Console.WriteLine("Создание нового объекта GraphicObject { " + this + "\n}");
 
         public override string ToString()
         {
@@ -136,7 +140,7 @@ namespace Lib.Lab4
         /// <summary>
         /// Расчет матрицы modelMatrix на основе position и angle
         /// </summary>
-        private void recalculateModelMatrix()
+        protected void recalculateModelMatrix()
         {
             // Позиция объекта (начало системы координат)
             this.modelMatrix[3, 0] = this.position.x;

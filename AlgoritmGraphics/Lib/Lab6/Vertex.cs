@@ -17,7 +17,14 @@ namespace Lib.Lab6
         public vec3 normal;
         
         // Текстурные координаты нулевого текстурного блока
-        public vec2 texCoord;
+        public vec2 textCoord;
         #endregion
+
+        public Vertex(vec3 coord, vec2 textCoord, vec3 normal)
+        {
+            this.coord = coord;
+            this.textCoord = textCoord;
+            this.normal = normal;
+        }
     }
 }

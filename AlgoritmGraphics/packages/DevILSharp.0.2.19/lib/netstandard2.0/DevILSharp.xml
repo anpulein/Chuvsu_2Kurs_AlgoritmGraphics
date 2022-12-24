@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>DevILSharp</name></assembly>
+<members>
+<member name="M:DevILSharp.Bootstrap.Init">
+ <summary>
+ initialize devil by copying all needed native libraries to the
+ current directory allowing them to be subsequently loaded.
+ </summary>
+</member>
+<member name="T:DevILSharp.Bootstrap">
+ <summary>
+ Bootstrap copies the needed native libraries to the current folder
+ according to the operating system and architecture of the running process.
+ </summary>
+</member>
+<member name="M:DevILSharp.IL.ActiveFace(System.Int32)">
+ <summary>
+ Sets the active image to a frame in an animation.
+ </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.NumLayers">
+ <summary> number of layers </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.NumMips">
+ <summary> number of mipmaps </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.NumNext">
+ <summary> number of images following </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.CubeFlags">
+ <summary> flags for what cube map sides are present </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.PalSize">
+ <summary> palette size </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.PalType">
+ <summary> palette type </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Palette">
+ <summary> the image's palette </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Origin">
+ <summary> origin of the image </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Type">
+ <summary> image type (in IL enum style) </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Format">
+ <summary> image format (in IL enum style) </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.SizeOfData">
+ <summary> the total size of the data (in bytes) </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Bpp">
+ <summary> bytes per pixel (not bits) of the image </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Depth">
+ <summary> the image's depth </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Height">
+ <summary> the image's height </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Width">
+ <summary> the image's width </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Data">
+ <summary> the image's data </summary>
+</member>
+<member name="F:DevILSharp.ILU.Info.Id">
+ <summary> the image's id </summary>
+</member>
+</members>
+</doc>

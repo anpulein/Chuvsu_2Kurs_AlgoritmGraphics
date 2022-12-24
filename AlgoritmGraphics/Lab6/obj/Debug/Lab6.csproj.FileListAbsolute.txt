@@ -17,7 +17,11 @@ D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug\Tao.FreeGlut.xml
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug\Tao.OpenGl.xml
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug\Tao.Platform.Windows.xml
-D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug\Newtonsoft.Json.xml
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\obj\Debug\Lab6.csproj.CopyComplete
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\obj\Debug\Lab6.exe
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\obj\Debug\Lab6.pdb
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\obj\Debug\Lab6.Form1.resources
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug\Lib.dll.config
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug\GlmNet.dll
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug\Tao.DevIl.dll
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab6\bin\Debug\Tao.DevIl.xml

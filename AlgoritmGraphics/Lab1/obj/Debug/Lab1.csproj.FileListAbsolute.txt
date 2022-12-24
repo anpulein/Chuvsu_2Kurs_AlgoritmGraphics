@@ -21,4 +21,7 @@ D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug\Lib.dll
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug\Lib.pdb
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug\Newtonsoft.Json.dll
-D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug\GlmNet.dll
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug\Lib.dll.config
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug\Tao.DevIl.dll
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab1\bin\Debug\Tao.DevIl.xml

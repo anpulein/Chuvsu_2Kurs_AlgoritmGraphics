@@ -1,8 +1,18 @@
 ﻿using System;
+using System.Reactive;
 using GlmSharp;
 
 namespace Lib.Enum
 {
+   
+    public enum TextureFilter
+    {
+        POINT, // Точечная               
+        BILINEAR, // Билинейная
+        TRIPLINEAR, // Трилинейная
+        ANISOTROPIC // Анизторопная
+    }
+
     /// <summary>
     /// Перечесление используемых цветов
     /// </summary>
@@ -23,8 +33,6 @@ namespace Lib.Enum
     /// </summary>
     public enum LABS
     {
-        LAB1,
-        LAB2,
         LAB3,
         LAB4,
         LAB5,
@@ -33,8 +41,53 @@ namespace Lib.Enum
         LAB8,
         LAB9,
         LAB10,
-        LAB11,
-        LAB12,
+    }
+    
+    /// <summary>
+    /// Определение типов игровых объектов
+    /// </summary>
+    public enum GameObjectType
+    {
+        /// <summary>
+        /// Пустой
+        /// </summary>
+        EMPTY,
+        /// <summary>
+        /// Легкий игровой объект
+        /// </summary>
+        LIGHT_OBJECT,
+        /// <summary>
+        /// Тяжелый игровой объект
+        /// </summary>
+        HEAVY_OBJECT,
+        /// <summary>
+        /// Граничный игровой объект
+        /// </summary>
+        BORDER_OBJECT,
+        /// <summary>
+        /// Игровой объект для представления игрока
+        /// </summary>
+        PLAYER,
+        /// <summary>
+        /// Игровой объект для представления бомбы
+        /// </summary>
+        BOMB,
+        /// <summary>
+        /// Игровой объект для представления монстров
+        /// </summary>
+        MONSTER, 
+        /// <summary>
+        /// Игровое поле
+        /// </summary>
+        SIMPLE_PLANE
+    }
+
+    public enum MoveDirection { STOP, LEFT, RIGHT, UP, DOWN, WAIT }
+
+    public enum GameMaterialType
+    {
+        PHONG_MATERIAL,
+        PHONG_MATERIAL_WITH_TEXTURE
     }
 
     // Класс для обработки цветов
@@ -72,6 +125,26 @@ namespace Lib.Enum
             }
 
             return String.Empty;
+        }
+    }
+
+    public class Objects
+    {
+        public static GameObjectType GetGameObjectType(string typeName)
+        {
+            switch (typeName)
+            {
+                case "Empty": return GameObjectType.EMPTY;
+                case "LIGHT_OBJECT": return GameObjectType.LIGHT_OBJECT;
+                case "HEAVY_OBJECT": return GameObjectType.HEAVY_OBJECT;
+                case "BORDER_OBJECT": return GameObjectType.BORDER_OBJECT;
+                case "PLAYER": return GameObjectType.PLAYER;
+                case "BOMB": return GameObjectType.BOMB;
+                case "MONSTER": return GameObjectType.MONSTER;
+                case "SIMPLE_PLANE": return GameObjectType.SIMPLE_PLANE;
+            }
+
+            return GameObjectType.LIGHT_OBJECT;
         }
     }
 }

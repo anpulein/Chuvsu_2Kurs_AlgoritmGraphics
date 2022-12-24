@@ -11,7 +11,6 @@ D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug\GlmSharp.xml
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug\Tao.FreeGlut.xml
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug\Tao.OpenGl.xml
-D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug\Newtonsoft.Json.xml
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\obj\Debug\Lab5.csproj.SuggestedBindingRedirects.cache
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\obj\Debug\Lab_5.Form1.resources
@@ -21,3 +20,7 @@ D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\obj\Debug
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\obj\Debug\Lab5.csproj.CopyComplete
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\obj\Debug\Lab5.exe
 D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\obj\Debug\Lab5.pdb
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug\Lib.dll.config
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug\GlmNet.dll
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug\Tao.DevIl.dll
+D:\Projects\Chuvsu\Chuvsu_2Kurs_AlgoritmGraphics\AlgoritmGraphics\Lab5\bin\Debug\Tao.DevIl.xml

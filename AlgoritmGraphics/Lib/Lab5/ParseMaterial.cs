@@ -25,6 +25,19 @@ namespace Lib.Lab5
             material3 = Parse(new PhongMaterial(), file3);
             material4 = Parse(new PhongMaterial(), file4);
         }
+        
+        public PhongMaterial getIndexMaterial(int index)
+        {
+            switch (index)
+            {
+                case 0: return material1; 
+                case 1: return material2; 
+                case 2: return material3; 
+                case 3: return material4; 
+            }
+
+            return null;
+        }
 
         private PhongMaterial Parse(PhongMaterial material, string file)
         {

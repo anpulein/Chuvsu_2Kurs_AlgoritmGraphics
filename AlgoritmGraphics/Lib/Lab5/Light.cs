@@ -1,4 +1,7 @@
-﻿using GlmSharp;
+﻿using System;
+using System.IO;
+using GlmSharp;
+using Newtonsoft.Json;
 using Tao.OpenGl;
 
 namespace Lib.Lab5
@@ -57,6 +60,36 @@ namespace Lib.Lab5
             Gl.glLightfv(LightNumber, Gl.GL_SPECULAR, glm.Values(this.specular));
             Gl.glEnable(LightNumber);
         }
+
+        public void load(string path)
+        {
+            using (StreamReader reader = new StreamReader($"{path}"))
+            {
+                string json = reader.ReadToEnd();
+                Root item = JsonConvert.DeserializeObject<Root>(json);
+
+                if (item != null)
+                {
+                    setPostion(getVec4(item.position));
+                    setAmbient(getVec4(item.ambient));
+                    setDiffuse(getVec4(item.diffuse));
+                    setSpecular(getVec4(item.specular));
+                }
+            }
+            
+        }
         
+        private vec4 getVec4(float[] array)
+        {
+            return new vec4(array);
+        }
+        
+        public class Root
+        {
+            public float[] position { get; set; }
+            public float[] ambient { get; set; }
+            public float[] diffuse { get; set; }
+            public float[] specular { get; set; }
+        }
     }
 }

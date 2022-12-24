@@ -33,6 +33,7 @@ namespace Lab_5
         public Form1()
         {
             _data = new Data();
+            Data.pathMaterial += "Lab5\\materials";
             
             InitializeComponent();
             View.InitializeContexts();

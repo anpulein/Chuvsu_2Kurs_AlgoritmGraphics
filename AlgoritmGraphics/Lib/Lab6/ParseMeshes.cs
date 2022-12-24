@@ -1,4 +1,7 @@
-﻿namespace Lib.Lab6
+﻿using System.Collections.Generic;
+using System.Windows.Forms.VisualStyles;
+
+namespace Lib.Lab6
 {
     public class ParseMeshes
     {
@@ -25,6 +28,19 @@
             ChamferBox = Parse(new Mesh(), fileChamferBox);
             SimplePlane = Parse(new Mesh(), fileSimplePlane);
             Sphere = Parse(new Mesh(), fileSphere);
+        }
+
+        public Mesh getIndexMesh(int index)
+        {
+            switch (index)
+            {
+                case 0: return SimplePlane; 
+                case 1: return box; 
+                case 2: return ChamferBox; 
+                case 3: return box; 
+            }
+
+            return null;
         }
 
         /// <summary>

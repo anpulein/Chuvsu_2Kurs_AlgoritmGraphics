@@ -1,0 +1,88 @@
+{
+    "GameObjectDescription": [
+        {
+            "type": "LIGHT_OBJECT",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\meshes\\ChamferBox.obj",
+            "material": {
+                "TextureName": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\textures\\light_object.png",
+                "Diffuse": [1.0, 1.0, 0.6, 1.0],
+                "Ambient": [0.4, 0.4, 0.2, 1.0],
+                "Specular": [1.0, 1.0, 1.0, 1.0],
+                "Emission": [0.0, 0.0, 0.0, 1.0],
+                "Shininess": 64.0
+            }
+        },
+        {
+            "type": "HEAVY_OBJECT",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\meshes\\HighPolyChamferBox.obj",
+            "material": {
+                "TextureName": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\textures\\heavy_object.png",
+                "Diffuse": [0.6, 0.6, 0.6, 1.0],
+                "Ambient": [0.1, 0.1, 0.1, 1.0],
+                "Specular": [0.0, 0.0, 0.0, 1.0],
+                "Emission": [0.0, 0.0, 0.0, 1.0],
+                "Shininess": 64.0
+            }
+        },
+        {
+            "type": "BORDER_OBJECT",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\meshes\\HighPolyBox.obj",
+            "material": {
+                "TextureName": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\textures\\border_object.png",
+                "Diffuse": [0.3, 0.3, 0.3, 1.0],
+                "Ambient": [0.1, 0.1, 0.1, 1.0],
+                "Specular": [0.0, 0.0, 0.0, 1.0],
+                "Emission": [0.0, 0.0, 0.0, 1.0],
+                "Shininess": 64.0
+            }
+        },
+        {
+            "type": "PLAYER",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\meshes\\Sphere.obj",
+            "material": {
+                "TextureName": "",
+                "Diffuse": [0.0, 0.6, 0.6, 1.0],
+                "Ambient": [0.0, 0.0, 0.0, 1.0],
+                "Specular": [0.0, 0.0, 0.0, 1.0],
+                "Emission": [0.0, 0.6, 0.6, 1.0],
+                "Shininess": 64.0
+            }
+        },
+        {
+            "type": "BOMB",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\meshes\\Sphere.obj",
+            "material": {
+                "TextureName": "",
+                "Diffuse": [0.2, 0.2, 0.2, 1.0],
+                "Ambient": [0.0, 0.0, 0.0, 1.0],
+                "Specular": [1.0, 1.0, 1.0, 1.0],
+                "Emission": [0.0, 0.0, 0.0, 1.0],
+                "Shininess": 64.0
+            }
+        },
+        {
+            "type": "MONSTER",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\meshes\\Sphere.obj",
+            "material": {
+                "TextureName": "",
+                "Diffuse": [0.6, 0.1, 0.1, 1.0],
+                "Ambient": [0.0, 0.0, 0.0, 1.0],
+                "Specular": [0.0, 0.0, 0.0, 0.0],
+                "Emission": [0.6, 0.1, 0.1, 1.0],
+                "Shininess": 64.0
+            }
+        },
+        {
+            "type": "SIMPLE_PLANE",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\meshes\\HighPolyPlane.obj",
+            "material": {
+                "TextureName": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab10\\textures\\plane.jpg",
+                "Diffuse": [0.6, 0.6, 0.6, 1.0],
+                "Ambient": [0.35, 0.35, 0.35, 1.0],
+                "Specular": [0.0, 0.0, 0.0, 1.0],
+                "Emission": [0.0, 0.0, 0.0, 1.0],
+                "Shininess": 64.0
+            }
+        }
+    ]
+}

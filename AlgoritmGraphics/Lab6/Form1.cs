@@ -20,7 +20,10 @@ using Tao.Platform.Windows;
 using GlmSharp;
 using Lib;
 using Lib.Enum;
+using Lib.Lab5;
+using Lib.Lab6;
 using Display = Lib.RenderProcessing.Display;
+using GraphicObject = Lib.Lab4.GraphicObject;
 using Reshape = Lib.RenderProcessing.Reshape;
 using Simulation = Lib.RenderProcessing.Simulation;
 #endregion
@@ -30,11 +33,18 @@ namespace Lab6
     public partial class Form1 : Form
     {
         private Data _data;
+
+
         public Form1()
         {
             InitializeComponent();
-            // View.InitializeContexts();
-            _data.initDataLab5();
+            View.InitializeContexts();
+            _data = new Data();
+
+            Data.pathMaterial += "Lab6\\materials";
+            Data.pathMesh += "Lab6\\meshes";
+            
+            _data.initDataLab6();
             Console.WriteLine("Запуск приложения!");
         }
         
@@ -105,12 +115,10 @@ namespace Lab6
             Glut.glutInit();
             // Инициализация дисплея (формат вывода)
             Glut.glutInitDisplayMode(Glut.GLUT_RGBA | Glut.GLUT_DOUBLE | Glut.GLUT_DEPTH | Glut.GLUT_MULTISAMPLE);
+            
+            // Включаем нулевой источник света
+            Gl.glEnable(Gl.GL_LIGHT0);
 
-            if (Data.Labs == LABS.LAB5)
-            {
-                // Включаем нулевой источник света
-                Gl.glEnable(Gl.GL_LIGHT0);
-            }
 
             // Устанавливаем общую фоновую освещенность
             Gl.glLightModelfv(Gl.GL_LIGHT_MODEL_AMBIENT, Data.globalAmbientColor);
@@ -122,7 +130,8 @@ namespace Lab6
             // 2. Устанавливаем размер окна
             Glut.glutInitWindowSize(800, 600);
             // 3. Создаем окно
-            Glut.glutCreateWindow("Lab5");
+            Glut.glutCreateWindow("Lab6");
+            
             
             //----------------- Установка функций обратного вызова -------------------//
             // Устанавливаем функцию, которая будет вызываться для перерисовки окна

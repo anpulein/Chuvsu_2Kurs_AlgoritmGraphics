@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lib.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lib.csproj",
+        "projectName": "Lib.csproj",
+        "projectPath": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lib.csproj",
+        "packagesPath": "C:\\Users\\dasta\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dasta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Dapplo.Log": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Dapplo.Windows.Common": {
+              "target": "Package",
+              "version": "[1.0.28, )"
+            },
+            "Dapplo.Windows.Messages": {
+              "target": "Package",
+              "version": "[1.0.28, )"
+            },
+            "Dapplo.Windows.User32": {
+              "target": "Package",
+              "version": "[1.0.28, )"
+            },
+            "DevILSharp": {
+              "target": "Package",
+              "version": "[0.2.19, )"
+            },
+            "GlmNet": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Json.NET.Web": {
+              "target": "Package",
+              "version": "[1.0.49, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta2, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "WinApi": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "glew": {
+              "target": "Package",
+              "version": "[1.9.0.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

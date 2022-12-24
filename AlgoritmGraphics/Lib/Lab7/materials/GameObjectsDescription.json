@@ -1,0 +1,82 @@
+{
+    "GameObjectDescription": [
+        {
+            "type": "LIGHT_OBJECT",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab7\\meshes\\ChamferBox.obj",
+            "material": {
+                "diffuse": [1.0, 1.0, 0.6, 1.0],
+                "ambient": [0.4, 0.4, 0.2, 1.0],
+                "specular": [1.0, 1.0, 1.0, 1.0],
+                "emission": [0.0, 0.0, 0.0, 1.0],
+                "shininess": 64.0
+            }
+        },
+        {
+            "type": "HEAVY_OBJECT",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab7\\meshes\\HighPolyChamferBox.obj",
+            "material": {
+                "diffuse": [0.6, 0.6, 0.6, 1.0],
+                "ambient": [0.1, 0.1, 0.1, 1.0],
+                "specular": [0.0, 0.0, 0.0, 1.0],
+                "emission": [0.0, 0.0, 0.0, 1.0],
+                "shininess": 64.0
+            }
+        },
+        {
+            "type": "BORDER_OBJECT",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab7\\meshes\\HighPolyBox.obj",
+            "material": {
+                "diffuse": [0.3, 0.3, 0.3, 1.0],
+                "ambient": [0.1, 0.1, 0.1, 1.0],
+                "specular": [0.0, 0.0, 0.0, 1.0],
+                "emission": [0.0, 0.0, 0.0, 1.0],
+                "shininess": 64.0
+            }
+        },
+        {
+            "type": "PLAYER",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab7\\meshes\\Sphere.obj",
+            "material": {
+                "diffuse": [0.0, 0.6, 0.6, 1.0],
+                "ambient": [0.0, 0.0, 0.0, 1.0],
+                "specular": [0.0, 0.0, 0.0, 1.0],
+                "emission": [0.0, 0.6, 0.6, 1.0],
+                "shininess": 64.0
+            }
+        },
+        {
+            "type": "BOMB",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab7\\meshes\\Sphere.obj",
+            "material": {
+                "diffuse": [0.2, 0.2, 0.2, 1.0],
+                "ambient": [0.0, 0.0, 0.0, 1.0],
+                "specular": [1.0, 1.0, 1.0, 1.0],
+                "emission": [0.0, 0.0, 0.0, 1.0],
+                "shininess": 64.0
+            }
+        },
+        {
+            "type": "MONSTER",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab7\\meshes\\Sphere.obj",
+            "material": {
+                "diffuse": [0.6, 0.1, 0.1, 1.0],
+                "ambient": [0.0, 0.0, 0.0, 1.0],
+                "specular": [0.0, 0.0, 0.0, 0.0],
+                "emission": [0.6, 0.1, 0.1, 1.0],
+                "shininess": 64.0
+            }
+        },
+        {
+            "type": "SIMPLE_PLANE",
+            "mesh": "D:\\Projects\\Chuvsu\\Chuvsu_2Kurs_AlgoritmGraphics\\AlgoritmGraphics\\Lib\\Lab7\\meshes\\SimplePlane.obj",
+            "material": {
+                "diffuse": [0.6, 0.6, 0.6, 1.0],
+                "ambient": [0.35, 0.35, 0.35, 1.0],
+                "specular": [0.0, 0.0, 0.0, 1.0],
+                "emission": [0.0, 0.0, 0.0, 1.0],
+                "shininess": 64.0
+            }
+        }
+    ]
+}
+
